@@ -1,0 +1,74 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    --primary1-color: #F72B3F;
+    --primary2-color: #034EA1;
+    --Linear-Gradients-color:(#F72B3F, #034EA1);
+    background-image: url(../img/banner__one);
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    min-width: 132px;
+    min-height: 38px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.active {
+    background-color: var(--primary1-color);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn__product {
+    text-decoration: none;
+    width: 100%;
+    background-color: #f72b3f;
+    font-size: 13px;
+    padding: 10px 5px;
+    border: none;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.new {
+    background-image: url(../img/new.webp);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@keyframes growth {
+    from{
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1.01);
+    }
+}

@@ -1,0 +1,131 @@
+.layout_account {
+    margin-bottom: 5rem;
+}
+
+.breadcrumb {
+    background: rgb(142 142 142 / 20%);
+    padding: 8px 15px;
+    list-style: none;
+    border-radius: 4px;
+}
+
+.breadcrumb ul {
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+}
+
+.breadcrumb ul li:nth-child(2):before,
+.breadcrumb ul li:nth-child(3):before {
+    content: ">";
+    color: #666;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0 10px;
+
+}
+
+.breadcrumb ul li a {
+    color: #878087;
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.login {
+    max-width: 100%;
+    width: 335px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    margin: 20px auto 0px;
+}
+
+.login h1 {
+    text-shadow: 0 1px 1px rgb(15, 50, 176);
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.login__title {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.box-icon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: rgba(204, 204, 204, 1);
+    text-align: center;
+    background-color: rgba(238, 238, 238, 1);
+    border: 1px solid rgba(221, 221, 221, 1);
+    display: table-cell;
+    width: 40px;
+}
+
+.box__text {
+    display: table-cell;
+    width: 100%;
+    border: 1px solid rgba(181, 181, 181, 1);
+    border-color: rgba(221, 221, 221, 1);
+    padding: 8px 15px;
+    font-size: 14px;
+    color: var(--primary1-color);
+}
+
+.login-btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white-color);
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 35px;
+    background: var(--primary2-color);
+    text-align: center;
+    border: none;
+}
+
+.required__password a {
+    color: var(--black-color);
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s
+}
+
+.required__password a:hover {
+    color: var(--primary1-color)
+}
+
+.login__btn-socialnetwork {
+    border-radius: 100px;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login__btn-socialnetwork span {
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 1s ease;
+    transform: translateX(0);
+}
+
+.login__btn-socialnetwork span:hover {
+    transform: translateX(20%)
+}
